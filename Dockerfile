@@ -13,7 +13,8 @@ ENV PATH="/app/.venv/bin:$PATH" \
     PYTHONUNBUFFERED=1 \
     HF_HOME=/tmp/hf_cache
 
-COPY pyproject.toml uv.lock ./
+# 🔥 التعديل هنا: تم إضافة README.md لتجنب خطأ OSError الخاص بأداة Hatchling أثناء الـ Sync
+COPY pyproject.toml uv.lock README.md ./
 
 RUN uv sync --frozen --no-dev
 
