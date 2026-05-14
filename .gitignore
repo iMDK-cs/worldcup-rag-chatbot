@@ -1,0 +1,103 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+*.egg
+
+# --- Virtual environments ---
+.venv/
+venv/
+env/
+ENV/
+.python-version
+
+# --- uv ---
+uv.lock
+
+# --- Testing & type checking ---
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.mypy_cache/
+.ruff_cache/
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- IDE ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*.iml
+
+# --- Environment ---
+.env
+.env.local
+.env.*.local
+
+# --- OS ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Logs ---
+*.log
+logs/
+
+# --- Project data (large / regenerable) ---
+data/raw/wikipedia/
+data/raw/kaggle/
+data/processed/
+data/synthetic/*
+data/chroma_db/
+chroma_db/
+models/
+
+# Keep raw source CSVs, translation dictionaries, and the canonical dataset
+!data/raw/csvs/
+!data/raw/csvs/**
+!data/translations/
+!data/translations/**
+!data/synthetic/qa_train_clean.jsonl
+
+# --- Agent / IDE state (do not commit) ---
+.claude/
+.cursor/
+.aider*
+CLAUDE.md
+AGENTS.md
+
+# --- ML artifacts ---
+*.safetensors
+*.bin
+*.gguf
+*.pt
+*.pth
+*.ckpt
+checkpoints/
+wandb/
+runs/
+mlruns/
+
+# --- Node.js / Next.js (Phase 2) ---
+node_modules/
+.next/
+.vercel/
+out/
+.turbo/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# --- Hugging Face cache (when placed inside the repo) ---
+.cache/
+hf_cache/

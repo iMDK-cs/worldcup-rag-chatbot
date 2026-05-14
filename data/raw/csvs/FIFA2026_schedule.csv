@@ -1,0 +1,105 @@
+date,match_number,group,stadium,date_dt
+"Thursday, 11 June 2026",Match 1,Group A,Mexico City Stadium,2026-06-11
+"Thursday, 11 June 2026",Match 2,Group A,Estadio Guadalajara,2026-06-11
+"Friday, 12 June 2026",Match 3,Group B,Toronto Stadium,2026-06-12
+"Friday, 12 June 2026",Match 4,Group D,Los Angeles Stadium,2026-06-12
+"Saturday, 13 June 2026",Match 5,Group C,Boston Stadium,2026-06-13
+"Saturday, 13 June 2026",Match 6,Group D,BC Place Vancouver,2026-06-13
+"Saturday, 13 June 2026",Match 7,Group C,New York New Jersey Stadium,2026-06-13
+"Saturday, 13 June 2026",Match 8,Group B,San Francisco Bay Area Stadium,2026-06-13
+"Sunday, 14 June 2026",Match 9,Group E,Philadelphia Stadium,2026-06-14
+"Sunday, 14 June 2026",Match 10,Group E,Houston Stadium,2026-06-14
+"Sunday, 14 June 2026",Match 11,Group F,Dallas Stadium,2026-06-14
+"Sunday, 14 June 2026",Match 12,Group F,Estadio Monterrey,2026-06-14
+"Monday, 15 June 2026",Match 13,Group H,Miami Stadium,2026-06-15
+"Monday, 15 June 2026",Match 14,Group H,Atlanta Stadium,2026-06-15
+"Monday, 15 June 2026",Match 15,Group G,Los Angeles Stadium,2026-06-15
+"Monday, 15 June 2026",Match 16,Group G,Seattle Stadium,2026-06-15
+"Tuesday, 16 June 2026",Match 17,Group I,New York New Jersey Stadium,2026-06-16
+"Tuesday, 16 June 2026",Match 18,Group I,Boston Stadium,2026-06-16
+"Tuesday, 16 June 2026",Match 19,Group J,Kansas City Stadium,2026-06-16
+"Tuesday, 16 June 2026",Match 20,Group J,San Francisco Bay Area Stadium,2026-06-16
+"Wednesday, 17 June 2026",Match 21,Group L,Toronto Stadium,2026-06-17
+"Wednesday, 17 June 2026",Match 22,Group L,Dallas Stadium,2026-06-17
+"Wednesday, 17 June 2026",Match 23,Group K,Houston Stadium,2026-06-17
+"Wednesday, 17 June 2026",Match 24,Group K,Mexico City Stadium,2026-06-17
+"Thursday, 18 June 2026",Match 25,Group A,Atlanta Stadium,2026-06-18
+"Thursday, 18 June 2026",Match 26,Group B,Los Angeles Stadium,2026-06-18
+"Thursday, 18 June 2026",Match 27,Group B,BC Place Vancouver,2026-06-18
+"Thursday, 18 June 2026",Match 28,Group A,Estadio Guadalajara,2026-06-18
+"Friday, 19 June 2026",Match 29,Group C,Philadelphia Stadium,2026-06-19
+"Friday, 19 June 2026",Match 30,Group C,Boston Stadium,2026-06-19
+"Friday, 19 June 2026",Match 31,Group D,San Francisco Bay Area Stadium,2026-06-19
+"Friday, 19 June 2026",Match 32,Group D,Seattle Stadium,2026-06-19
+"Saturday, 20 June 2026",Match 33,Group E,Toronto Stadium,2026-06-20
+"Saturday, 20 June 2026",Match 34,Group E,Kansas City Stadium,2026-06-20
+"Saturday, 20 June 2026",Match 35,Group F,Houston Stadium,2026-06-20
+"Saturday, 20 June 2026",Match 36,Group F,Estadio Monterrey,2026-06-20
+"Sunday, 21 June 2026",Match 37,Group H,Miami Stadium,2026-06-21
+"Sunday, 21 June 2026",Match 38,Group H,Atlanta Stadium,2026-06-21
+"Sunday, 21 June 2026",Match 39,Group G,Los Angeles Stadium,2026-06-21
+"Sunday, 21 June 2026",Match 40,Group G,BC Place Vancouver,2026-06-21
+"Monday, 22 June 2026",Match 41,Group I,New York New Jersey Stadium,2026-06-22
+"Monday, 22 June 2026",Match 42,Group I,Philadelphia Stadium,2026-06-22
+"Monday, 22 June 2026",Match 43,Group J,Dallas Stadium,2026-06-22
+"Monday, 22 June 2026",Match 44,Group J,San Francisco Bay Area Stadium,2026-06-22
+"Tuesday, 23 June 2026",Match 45,Group L,Boston Stadium,2026-06-23
+"Tuesday, 23 June 2026",Match 46,Group L,Toronto Stadium,2026-06-23
+"Tuesday, 23 June 2026",Match 47,Group K,Houston Stadium,2026-06-23
+"Tuesday, 23 June 2026",Match 48,Group K,Estadio Guadalajara,2026-06-23
+"Wednesday, 24 June 2026",Match 49,Group C,Miami Stadium,2026-06-24
+"Wednesday, 24 June 2026",Match 50,Group C,Atlanta Stadium,2026-06-24
+"Wednesday, 24 June 2026",Match 51,Group B,BC Place Vancouver,2026-06-24
+"Wednesday, 24 June 2026",Match 52,Group B,Seattle Stadium,2026-06-24
+"Wednesday, 24 June 2026",Match 53,Group A,Mexico City Stadium,2026-06-24
+"Wednesday, 24 June 2026",Match 54,Group A,Estadio Monterrey,2026-06-24
+"Thursday, 25 June 2026",Match 55,Group E,Philadelphia Stadium,2026-06-25
+"Thursday, 25 June 2026",Match 56,Group E,New York New Jersey Stadium,2026-06-25
+"Thursday, 25 June 2026",Match 57,Group F,Dallas Stadium,2026-06-25
+"Thursday, 25 June 2026",Match 58,Group F,Kansas City Stadium,2026-06-25
+"Thursday, 25 June 2026",Match 59,Group D,Los Angeles Stadium,2026-06-25
+"Thursday, 25 June 2026",Match 60,Group D,San Francisco Bay Area Stadium,2026-06-25
+"Friday, 26 June 2026",Match 61,Group I,Boston Stadium,2026-06-26
+"Friday, 26 June 2026",Match 62,Group I,Toronto Stadium,2026-06-26
+"Friday, 26 June 2026",Match 63,Group G,Seattle Stadium,2026-06-26
+"Friday, 26 June 2026",Match 64,Group G,BC Place Vancouver,2026-06-26
+"Friday, 26 June 2026",Match 65,Group H,Houston Stadium,2026-06-26
+"Friday, 26 June 2026",Match 66,Group H,Estadio Guadalajara,2026-06-26
+"Saturday, 27 June 2026",Match 67,Group L,New York New Jersey Stadium,2026-06-27
+"Saturday, 27 June 2026",Match 68,Group L,Philadelphia Stadium,2026-06-27
+"Saturday, 27 June 2026",Match 69,Group J,Kansas City Stadium,2026-06-27
+"Saturday, 27 June 2026",Match 70,Group J,Dallas Stadium,2026-06-27
+"Saturday, 27 June 2026",Match 71,Group K,Miami Stadium,2026-06-27
+"Saturday, 27 June 2026",Match 72,Group K,Atlanta Stadium,2026-06-27
+"Sunday, 28 June 2026",Match 73,Group A runners,Los Angeles Stadium,2026-06-28
+"Monday, 29 June 2026",Match 74,Group E winners v  Group A/B/C/D/F third place,Boston Stadium,2026-06-29
+"Monday, 29 June 2026",Match 75,Group F winners v Group C runners,Estadio Monterrey,2026-06-29
+"Monday, 29 June 2026",Match 76,Group C winners v Group F runners,Houston Stadium,2026-06-29
+"Tuesday, 30 June 2026",Match 77,Group I winners v Group C/D/F/G/H third place,New York New Jersey Stadium,2026-06-30
+"Tuesday, 30 June 2026",Match 78,Group E runners up v Group I runners,Dallas Stadium,2026-06-30
+"Tuesday, 30 June 2026",Match 79,Group A winners v Group C/E/F/H/I third place,Mexico City Stadium,2026-06-30
+"Wednesday, 1 July 2026",Match 80,Group L winners v Group E/H/I/J/K third place,Atlanta Stadium,2026-07-01
+"Wednesday, 1 July 2026",Match 81,Group D winners v Group B/E/F/I/J third place,San Francisco Bay Area Stadium,2026-07-01
+"Wednesday, 1 July 2026",Match 82,Group G winners v  Group A/E/H/I/J third place,Seattle Stadium,2026-07-01
+"Thursday, 2 July 2026",Match 83,Group K runners,Toronto Stadium,2026-07-02
+"Thursday, 2 July 2026",Match 84,Group H winners v Group J runners,Los Angeles Stadium,2026-07-02
+"Thursday, 2 July 2026",Match 85,Group B winners v Group E/F/G/I/J third place,BC Place Vancouver,2026-07-02
+"Friday, 3 July 2026",Match 86,Group J winners v Group H runners,Miami Stadium,2026-07-03
+"Friday, 3 July 2026",Match 87,Group K winners v Group D/E/I/J/L third place,Kansas City Stadium,2026-07-03
+"Friday, 3 July 2026",Match 88,Group D runners,Dallas Stadium,2026-07-03
+"Saturday, 4 July 2026",Match 89,Winner match 74 v Winner match 77,Philadelphia Stadium,2026-07-04
+"Saturday, 4 July 2026",Match 90,Winner match 73 v Winner match 75,Houston Stadium,2026-07-04
+"Sunday, 5 July 2026",Match 91,Winner match 76 v Winner match 78,New York New Jersey Stadium,2026-07-05
+"Sunday, 5 July 2026",Match 92,Winner match 79 v Winner match 80,Mexico City Stadium,2026-07-05
+"Monday, 6 July 2026",Match 93,Winner match 83 v Winner match 84,Dallas Stadium,2026-07-06
+"Monday, 6 July 2026",Match 94,Winner match 81 v Winner match 82,Seattle Stadium,2026-07-06
+"Tuesday, 7 July 2026",Match 95,Winner match 86 v Winner match 88,Atlanta Stadium,2026-07-07
+"Tuesday, 7 July 2026",Match 96,Winner match 85 v Winner match 87,BC Place Vancouver,2026-07-07
+"Thursday, 9 July 2026",Match 97,Winner match 89 v Winner match 90,Boston Stadium,2026-07-09
+"Friday, 10 July 2026",Match 98,Winner match 93 v Winner match 94,Los Angeles Stadium,2026-07-10
+"Saturday, 11 July 2026",Match 99,Winner match 91 v Winner match 92,Miami Stadium,2026-07-11
+"Saturday, 11 July 2026",Match 100,Winner match 95 v Winner match 96,Kansas City Stadium,2026-07-11
+"Tuesday, 14 July 2026",Match 101,Winner match 97 v Winner match 98,Dallas Stadium,2026-07-14
+"Wednesday, 15 July 2026",Match 102,Winner match 99 v Winner match 100,Atlanta Stadium,2026-07-15
+"Saturday, 18 July 2026",Match 103,Loser match 101 v Loser match 102,Miami Stadium,2026-07-18
+"Sunday, 19 July 2026",Match 104,Winner match 101 v Winner match 102,New York New Jersey Stadium,2026-07-19
