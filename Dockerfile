@@ -11,14 +11,15 @@ WORKDIR /app
 
 ENV PATH="/app/.venv/bin:$PATH" \
     PYTHONUNBUFFERED=1 \
-    HF_HOME=/tmp/hf_cache
+    HF_HOME=/app/.hf_cache
 
-# 🔥 التعديل هنا: تم إضافة README.md لتجنب خطأ OSError الخاص بأداة Hatchling أثناء الـ Sync
 COPY pyproject.toml uv.lock README.md ./
 
 RUN uv sync --frozen --no-dev
 
 COPY . .
+
+RUN uv run python -m src.rag.numpy_retriever --build
 
 RUN useradd -m -u 1000 user && \
     chown -R user:user /app
