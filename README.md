@@ -1,3 +1,10 @@
+---
+title: Mundial Chatbot
+colorFrom: green
+colorTo: yellow
+sdk: docker
+pinned: false
+---
 # Mundial Chatbot — World Cup 2026 RAG Assistant
 
 A bilingual (Arabic / English) retrieval-augmented chatbot focused on the
@@ -149,53 +156,6 @@ worldcup-rag-chatbot/
 
 ---
 
-## Setup
-
-### Prerequisites
-
-- Python 3.11+
-- NVIDIA GPU with at least 10 GB VRAM (RTX 3080 or better) for inference
-- [`uv`](https://docs.astral.sh/uv/) for dependency management
-- A Hugging Face token with access to `mistralai/Mistral-7B-Instruct-v0.3`
-
-### Install
-
-```bash
-uv sync
-cp .env.example .env
-# Fill HF_TOKEN (required) and ANTHROPIC_API_KEY (only if regenerating data).
-```
-
-### Build the retrieval index
-
-```bash
-uv run python -m src.rag.numpy_retriever --build
-```
-
-This embeds every chunk in `data/synthetic/qa_train_clean.jsonl` plus the
-three source CSVs and writes the index to `data/chroma_db/numpy_index/`.
-Runs on CPU (the encoder is ~120 MB).
-
-### Train the adapter (optional — the model can run without one)
-
-```bash
-uv run python -m src.training.finetune
-```
-
-Trains for two epochs at LR 1e-4 with a 5 % held-out validation split and
-saves the LoRA adapter to `models/mistral-7b-worldcup/`. Roughly 70 minutes
-on an RTX 3080.
-
-### Run the server
-
-```bash
-uv run uvicorn src.api.chat:app --host 0.0.0.0 --port 8000
-```
-
-Open <http://localhost:8000/> — the UI loads with dark/light and AR/EN toggles.
-
----
-
 ## API
 
 ### `POST /chat`
@@ -254,60 +214,11 @@ adapter is loaded).
 
 ---
 
-## Data sources
-
-Committed:
-
-- `host_cities.csv` — 16 host cities (11 USA, 3 Mexico, 2 Canada)
-- `FIFA2026_schedule.csv` — every match with date and stadium
-- `future_match_probabilities_baseline.csv` — Elo-derived group-stage
-  win/draw/loss probabilities
-- `data/translations/*.json` — bilingual mappings for teams, cities,
-  venues
-- `data/synthetic/qa_train_clean.jsonl` — 6,949 instruction/output pairs
-
-Regenerable (gitignored):
-
-- `data/raw/wikipedia/` and `data/raw/kaggle/` — fetched on demand
-- `data/chroma_db/numpy_index/` — produced by `python -m src.rag.numpy_retriever --build`
-- `models/mistral-7b-worldcup/` — produced by `python -m src.training.finetune`
-
----
-
 ## Regenerating the Q&A dataset
 
 The bundled `qa_train_clean.jsonl` is the canonical training set. To
 rebuild it from scratch:
 
-```bash
-# 1. Generate new pairs (requires ANTHROPIC_API_KEY)
-uv run python -m src.training.qa_generator_v2 --target 5000
-
-# 2. Merge any other JSONL sources and de-duplicate
-uv run python -m src.training.merge_datasets
-
-# 3. Strip rows with banned prefixes or fabricated rules
-uv run python -m src.training.clean_dataset
-
-# 4. Rebuild the retrieval index
-uv run python -m src.rag.numpy_retriever --build
-```
-
----
-
-## Benchmark and evaluation
-
-```bash
-# Live API latency + hit-rate
-uv run python -m src.evaluation.benchmark
-
-# RAG-only vs RAG + fine-tuned LoRA (10 bilingual prompts)
-uv run python -m src.evaluation.compare
-```
-
-Outputs `models/benchmark_report.json` and `models/eval_results.json`.
-
----
 
 ## Known limitations
 
